@@ -1,0 +1,93 @@
+baseURL = 'https://davivilarinho.github.io/'
+languageCode = 'en-us'
+theme = 'mana'
+title = "vilarinho's space"
+favicon = "/tie_3849635.png"
+
+[params]
+  description = "hello, i'm davi, but some people call me vilarinho, so that makes me also vilarinho. dev by craft. a reader by passion. but a bad writer by bad habits."
+  favicon = "/favicon/favicon.ico"
+  footerText = "pssst: the best human i can be. love you k ♡"  # Optional
+  
+  # Hero section title (optional - defaults to site.Title)
+  heroTitleLine1 = "davi vilarinho"  # First line of hero title
+  heroTitleLine2 = "logs & schema"    # Second line of hero title (optional)
+  custom404Message = "Sorry, the page you are looking for could not be found. I guess I don't have a guide for <em>everything</em>"
+
+[params.codeHighlight]
+  darkTheme = "catppuccin-macchiato"   # Theme for dark mode
+  lightTheme = "catppuccin-frappe"     # Theme for light mode
+
+
+[params.avatar]
+  url = "/tie_3849635.png"
+
+[params.social]
+  github = "https://github.com/DaviVilarinho"
+  linkedin = "https://www.linkedin.com/in/davi-ramos-vilarinho/"
+  email = "dv.news4me@gmail.com"
+
+[[menus.main]]
+  name = 'home'
+  pageRef = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'posts'
+  pageRef = '/posts'
+  weight = 20
+
+[[menus.main]]
+  name = 'tags'
+  pageRef = '/tags'
+  weight = 30
+
+# [[menus.main]]
+#   name = 'about'
+#   url = '/about/'
+#   weight = 40
+
+[pagination]
+  pageSize = 10  # Number of posts per page (default: 10)
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 6
+    ordered = false
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      # Enable block-level attributes for blockquotes
+      # NOTE / INFO - Informational content
+      # TIP - Helpful tips and suggestions
+      # IMPORTANT - Important information
+      # WARNING / CAUTION - Warnings and cautions
+      # SUCCESS - Success messages
+      # QUESTION - Questions or prompts
+      # DANGER - Critical warnings
+      # BUG - Bug reports or known issues
+      # EXAMPLE - Example content
+
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
+    style = "catppuccin-macchiato"  # Default style
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+
+
+# [params.buyMeACoffee]
+#   enabled = true
+#   id = "yourwidgetid"
+#   description = "Support me on Buy me a coffee!"
+#   message = ""  # Optional message
+#   color = "#BD5FFF"  # Widget color
+#   position = "Right"  # "Left" or "Right"
+#   x_margin = "18"  # Horizontal margin in pixels
+#   y_margin = "18"  # Vertical margin in pixels

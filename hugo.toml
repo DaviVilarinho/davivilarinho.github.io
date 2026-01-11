@@ -1,18 +1,18 @@
 baseURL = 'https://davivilarinho.github.io/'
-languageCode = 'en-us'
+languageCode = 'pt-br'
 theme = 'mana'
 title = "vilarinho's space"
 favicon = "/tie_3849635.png"
 
 [params]
-  description = "hello, i'm davi, but some people call me vilarinho, so that makes me also vilarinho. dev by craft. a reader by passion. but a bad writer by bad habits."
+  description = "olá, eu sou o davi, mas algumas pessoas me chamam de vilarinho, então isso me torna também o vilarinho. dev por ofício. um leitor por paixão. mas um mau escritor por maus hábitos."
   favicon = "/favicon/favicon.ico"
-  footerText = "pssst: the best human i can be. love you k ♡"  # Optional
+  footerText = "pssst: o melhor humano que posso ser. amo você k ♡"  # Optional
   
   # Hero section title (optional - defaults to site.Title)
   heroTitleLine1 = "davi vilarinho"  # First line of hero title
   heroTitleLine2 = "logs & schema"    # Second line of hero title (optional)
-  custom404Message = "Sorry, the page you are looking for could not be found. I guess I don't have a guide for <em>everything</em>"
+  custom404Message = "desculpe, a página que você está procurando não foi encontrada. acho que não tenho um guia para <em>tudo</em>"
 
 [params.codeHighlight]
   darkTheme = "catppuccin-macchiato"   # Theme for dark mode
@@ -42,10 +42,10 @@ favicon = "/tie_3849635.png"
   pageRef = '/tags'
   weight = 30
 
-# [[menus.main]]
-#   name = 'about'
-#   url = '/about/'
-#   weight = 40
+[[menus.main]]
+  name = 'about'
+  url = '/about/'
+  weight = 40
 
 [pagination]
   pageSize = 10  # Number of posts per page (default: 10)

@@ -32,7 +32,7 @@ Sua epifania permite-a viver. Mas é um viver platônico. Ela precisava disso. A
 
 > eu sou, eu sou, eu sou. Quem era, é que não sabia. Fora buscar no próprio profundo e negro âmago de si mesma o sopro de vida que Deus nos dá
 
-> só agora que mulher nasce mulher desde o primeiro vagido. O destino de uma mulher é ser mulher.
+> só agora entendia que mulher nasce mulher desde o primeiro vagido. O destino de uma mulher é ser mulher.
 
 > Qual foi a verdade de minha Maca? Basta descobrir a verdade que ela logo já não é mais
 

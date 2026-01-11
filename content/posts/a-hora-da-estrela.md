@@ -26,6 +26,7 @@ Sua epifania permite-a viver. Mas é um viver platônico. Ela precisava disso. A
 > deputada parecia nome feio.
 
 >  uma vez pediu a Olímpico que lhe telefonasse. Ele disse:
+>
 >  — Telefonar pra ouvir tuas bobagens?
 
 > Madama Carlota (explosão) era um ponto na sua existência
